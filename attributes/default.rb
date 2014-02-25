@@ -1,6 +1,6 @@
 
 # Version of Jython to be installed
-default["jython"]["version"] = "2.5.3"
+default["jython"]["version"] = "2.7b1"
 
 # Whether or not the package cache should be world writable,
 # If you see errors like:
@@ -34,3 +34,9 @@ default["jython"]["versions"]["2.7a2"] = {
   "remote_jar" => "http://downloads.sourceforge.net/project/jython/jython-dev/2.7.0a2/jython_installer-2.7a2.jar",
   "jar_checksum" => "b640c98652b050b5c66b256161d63dac1336a78cf37e240db3d8089466c11266",
 }
+
+default["jython"]["versions"]["2.7b1"] = {
+  "remote_jar" => "http://search.maven.org/remotecontent?filepath=org/python/jython-installer/2.7-b1/jython-installer-2.7-b1.jar",
+  "jar_checksum" => "b640c98652b050b5c66b256161d63dac1336a78cf37e240db3d8089466c11266"
+}
+
